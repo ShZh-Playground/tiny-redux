@@ -1,0 +1,24 @@
+{
+  "name": "tiny-redux",
+  "version": "1.0.0",
+  "description": "A redux like state management library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShZh-Playground/tiny-redux.git"
+  },
+  "author": "sh-zh-7",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ShZh-Playground/tiny-redux/issues"
+  },
+  "homepage": "https://github.com/ShZh-Playground/tiny-redux#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "husky": "^5.1.1"
+  }
+}
