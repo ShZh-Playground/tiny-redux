@@ -4,7 +4,13 @@
   "description": "A redux like state management library.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "lint": "eslint --fix src/**/*.ts",
+    "lint-check": "eslint src/**/*.ts",
+    "pre-commit": "prettier --write **/*.ts && eslint src/**/*.ts && jest",
+    "test": "jest",
+    "debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
   },
   "repository": {
     "type": "git",
