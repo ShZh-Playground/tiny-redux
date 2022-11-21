@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ShZh-Playground/tiny-redux#readme",
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
-    "@commitlint/config-conventional": "^12.0.1",
+    "@commitlint/config-conventional": "^17.3.0",
     "@types/node": "^14.14.31",
     "eslint-plugin-prettier": "^3.3.1",
     "husky": "^5.1.1",
